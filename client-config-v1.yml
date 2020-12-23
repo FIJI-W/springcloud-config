@@ -21,14 +21,7 @@ eureka:
     #这样才能配合Ribbon使用负载均衡
     fetchRegistry: true
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
       #因为我们在做注册中心集群，需要同时注册到两个eureka上面，如果是单个eureka，就不用写两个，即：
       #defaultZone: http://eureka7001.com:7001/eureka即可
-  #下面两行在做服务的信息完善工作，修改服务名称以及显示服务的ip地址
-  instance:
-    instance-id: payment8001
-    prefer-ip-address: true
-    #eureka服务端在收到最后一次心跳后等待时间上限，单位为秒(默认为90秒)，超时将剔除服务
-    #lease-expiration-duration-in-seconds: 2
-    #eureka客户端向服务端发送心跳的时间间隔，单位为秒，(默认是30秒)
-    #lease-renewal-interval-in-seconds: 1
+ 
