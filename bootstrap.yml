@@ -7,7 +7,7 @@ spring:
   cloud:
     # config 客户端配置
     config:
-      label: master         # 分支名称
+      label: main         # 分支名称
       name: client-config       # 配置文件名称
       profile: test      # 使用配置环境
       uri: http://config-3344.com:3344  # config Server 地址
