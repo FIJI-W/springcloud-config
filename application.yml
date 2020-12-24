@@ -13,12 +13,12 @@ spring:
 spring:
   profiles: test   #测试环境
   application:
-    name: springcloud-config-atguigu-test7
+    name: springcloud-config-atguigu-test8
     
 ---
 spring:
   profiles: prod   #生产环境
   application:
-    name: springcloud-config-atguigu-prod7
+    name: springcloud-config-atguigu-prod8
 
 #请保存为utf-8111aaqqe1332131'''21121sfcddaf3214
