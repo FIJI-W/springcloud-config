@@ -13,6 +13,6 @@ spring:
 spring:
   profiles: test   #测试环境
   application:
-    name: springcloud-config-atguigu-test2
+    name: springcloud-config-atguigu-test3
 
 #请保存为utf-8111aaqqe1332131'''21121sfcddaf3214
