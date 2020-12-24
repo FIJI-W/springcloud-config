@@ -20,5 +20,6 @@ spring:
   profiles: prod   #生产环境
   application:
     name: springcloud-config-atguigu-prod9
+info: 你好
 
 #请保存为utf-8111aaqqe1332131'''21121sfcddaf3214
